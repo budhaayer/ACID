@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ACID</string>
+    <string name="title_activity_sfab">Sfab</string>
+    <string name="title_activity_gmap">Map</string>
+</resources>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/dbname"
+        android:hint="Input name"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/dbclass"
+        android:hint="Input class"
+    />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Insert"
+        android:id="@+id/dbinsert"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Retrieve"
+        android:id="@+id/dbshow"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="ID"
+        android:layout_margin="20dp"
+        android:id="@+id/dbid"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="UPDATE"
+        android:id="@+id/dbupdate"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:id="@+id/btdelete"
+        android:text="Delete"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dbdisplay"
+        />
+</LinearLayout>
